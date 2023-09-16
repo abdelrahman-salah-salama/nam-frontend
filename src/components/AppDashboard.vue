@@ -1,7 +1,7 @@
 <template>
   <div class="headerDiv">
     <AppHeader />
-    <v-row>
+    <!-- <v-row>
       <v-col><h1>Good Evening, Shan</h1></v-col>
       <v-col>
         <v-row>
@@ -26,7 +26,6 @@
           <v-card>
             <v-card-title> Dialog Content </v-card-title>
             <v-card-text>
-              <!-- Your dialog content goes here -->
             </v-card-text>
             <v-card-actions>
               <v-btn color="primary" @click="closeDialog">Close</v-btn>
@@ -34,7 +33,7 @@
           </v-card>
         </v-dialog>
       </v-col>
-    </v-row>
+    </v-row> -->
   </div>
 </template>
 
@@ -47,16 +46,16 @@ export default {
   },
   data() {
     return {
-      dialogVisible: false,
+      // dialogVisible: false,
     };
   },
   methods: {
-    openDialog() {
-      this.dialogVisible = true;
-    },
-    closeDialog() {
-      this.dialogVisible = false;
-    },
+    // openDialog() {
+    //   this.dialogVisible = true;
+    // },
+    // closeDialog() {
+    //   this.dialogVisible = false;
+    // },
   },
 };
 </script>
