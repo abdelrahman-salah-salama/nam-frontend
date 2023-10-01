@@ -97,7 +97,7 @@
         rounded
         variant="tonal"
       >
-        Login
+        Register
       </v-btn>
     </div>
 

@@ -84,6 +84,6 @@ export default {
 
 <style scoped>
 .appForm {
-  background-color: #15202b00;
+  /* background-color: #15202b00; */
 }
 </style>

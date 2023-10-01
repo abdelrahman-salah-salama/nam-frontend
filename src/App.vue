@@ -1,11 +1,9 @@
 <template>
-  <!-- <LoginForm /> -->
-  <!-- <AppHeader /> -->
-  <router-view />
+  <v-app>
+    <router-view />
+  </v-app>
 </template>
 <script>
-// import AppHeader from "./components/shared/AppHeader.vue";
-// import LoginForm from "./components/LoginForm.vue";
 export default {
   name: "App",
   components: {},
