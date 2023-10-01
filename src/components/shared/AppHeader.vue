@@ -164,7 +164,6 @@ export default {
 
   data() {
     return {
-      isDarkMode: false,
       drawer: false,
       dialogVisible: false,
       tab: null,
