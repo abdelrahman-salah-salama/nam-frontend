@@ -2,6 +2,9 @@ import { createRouter, createWebHistory } from "vue-router";
 import AppDashboard from "../components/AppDashboard.vue";
 import LoginForm from "../components/LoginForm.vue";
 import RegisterForm from "../components/RegisterForm.vue";
+import InvestigationInner from "../components/InvestigationInner.vue";
+import NewBoard from "../components/NewBoard.vue";
+import OfficialCharts from "../components/OfficialCharts.vue";
 
 const routes = [
   {
@@ -27,6 +30,21 @@ const routes = [
     path: "/register",
     name: "register",
     component: RegisterForm,
+  },
+  {
+    path: "/investigationInner",
+    name: "investigationInner",
+    component: InvestigationInner,
+  },
+  {
+    path: "/newBoard",
+    name: "newBoard",
+    component: NewBoard,
+  },
+  {
+    path: "/officialCharts",
+    name: "officialCharts",
+    component: OfficialCharts,
   },
 ];
 
